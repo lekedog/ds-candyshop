@@ -7,10 +7,10 @@ lib.locale()
 CreateThread(function()
     for _,v in pairs(Config.PlayerCandyshopLocations) do
         if v.showblip == true then    
-            local PlayerCandyshopBlip = BlipAddForCoords(-1282792512, v.coords)
-            SetBlipSprite(PlayerCandyshopBlip, GetHashKey("blip_shop_store"), true)
-            SetBlipScale(PlayerCandyshopBlip, 0.7)
-            SetBlipName(PlayerCandyshopBlip, v.blipname)
+            local PlayerSaloonBlip = BlipAddForCoords(-1282792512, v.coords)
+            SetBlipSprite(PlayerSaloonBlip, joaat(v.blipsprite), true)
+            SetBlipScale(PlayerSaloonBlip, v.blipscale)
+            SetBlipName(PlayerSaloonBlip, v.blipname)
         end
     end
 end)
@@ -690,4 +690,5 @@ RegisterNetEvent('ds-candyshop:client:craftingmenu', function(data)
         TriggerServerEvent('ds-candyshop:server:consumeBlueprint', data.bpc)
     end
     -- existing crafting logic...
+
 end)
