@@ -4,11 +4,10 @@ A candy shop job system based on rex-saloon, adapted for confectionery operation
 ## Features
 - 9 candy shop locations across the map
 - Extensive candy crafting system with multiple categories:
-  - Basic Candies (Rock Candy)
-  - Hard Candies (Peppermint, Lemon Drops, Butterscotch, Cinnamon)
-  - Soft Candies (Caramel, Taffy, Fudge)
-  - Chocolate Candies (Truffles, Chocolate Bars)
-  - Gummy Candies (Gummy Bears, Licorice)
+  - Basic Candies (Hard Milk Candys)
+  - Hard Candies (Peppermint, Lemon Drops, Candycanes)
+  - Soft Candies (Taffy)
+  - Chocolate Candies (Chocolate Bars)
   - Specialty Treats (Candy Apples)
 - Stock management system
 - Employee hierarchy (Apprentice, Candy Maker, Shop Owner)
@@ -20,7 +19,7 @@ A candy shop job system based on rex-saloon, adapted for confectionery operation
 - rsg-core
 - rsg-multijob
 - ox_lib
-- rsg-target
+- ox_target
 - rsg-inventory
 
 ## Installation
@@ -49,7 +48,7 @@ ensure ds-candyshop
 - Guarma Candy Shop
 
 ## Crafting Categories
-The candy shop features an extensive crafting system with ingredients like sugar, chocolate, corn syrup, gelatin, various extracts and flavorings, plus tools like molds and wrappers. Players can create everything from simple rock candy to complex chocolate truffles and specialty candy apples.
+The candy shop features an extensive crafting system with ingredients like sugar, chocolate, corn syrup, various extracts and flavorings. Players can create everything from simple hard candys to complex chocolate candy bars and specialty candy apples.
 
 ## Configuration
 Edit the config.lua file to customize:
@@ -60,4 +59,4 @@ Edit the config.lua file to customize:
 - Crafting recipes and times
 
 ## Notes
-This resource is a complete adaptation of rex-saloon for candy shop operations. All original saloon references have been updated to candy shop terminology while maintaining the same robust functionality and structure.
+You will need your own IMAGES
