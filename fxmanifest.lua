@@ -24,12 +24,14 @@ server_scripts {
 
 dependencies {
     'rsg-core',
-    'rsg-target',
+    'ox_target',
     'ox_lib',
+    'rsg-consume'
 }
 
 files {
   'locales/*.json'
 }
+
 
 lua54 'yes'
